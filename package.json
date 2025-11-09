@@ -1,0 +1,23 @@
+{
+  "name": "firetracker",
+  "version": "1.0.0",
+  "homepage": ".",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "postinstall": "electron-rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "react-router-dom": "^7.9.5",
+    "sqlite3": "^5.1.7"
+  },
+  "devDependencies": {
+    "electron": "^39.1.1",
+    "electron-rebuild": "^3.2.9"
+  }
+}
